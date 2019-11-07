@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit", "keyring"]
+build-backend = "flit.buildapi"
+
+
+[tool.flit.metadata]
+module = "sql2code"
+author = "Dev Aggarwal"
+author-email = "devxpy@gmail.com"
+home-page = "http://github.com/scientifichackers/sql2code"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = ['sly', 'click']
+requires-python = '>=3.6'
+
+[tool.flit.scripts]
+sql2dart = 'sql2code.sql2dart:cli'
