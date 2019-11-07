@@ -4,6 +4,10 @@ This project lets you write functions in SQL and import them in code.
 
 Currently, it only supports dart.
 
+```console
+$ pip install sql2code
+```
+
 ```sql
 -- queries1.sql
 listMessages(sender, limit, offset) {
